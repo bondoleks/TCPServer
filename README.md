@@ -5,23 +5,19 @@ This is a simple TCP server and client example written in Java 18. The server al
 
 ## Getting Started
 
-1. Unzip the project archive using the following terminal command: unzip BondarchukTCPProject.zip
+1. Start the server by running the following terminal command: java TCPServer.java
 
-2. Navigate to the "BondarchukTCPProject" directory and open a terminal there.
+1.1. Enter the available server port number (e.g., 8080) when prompted.
 
-3. Start the server by running the following terminal command: java TCPServer.java
+2. Start the client by running the following terminal command: java TCPClient.java
 
-3.1. Enter the available server port number (e.g., 8080) when prompted.
+2.1. Enter the server address you specified in step 1.1.
 
-4. Start the client by running the following terminal command: java TCPClient.java
+3. Test the functionality of the program.
 
-4.1. Enter the server address you specified in step 3.1.
+4. To exit the client, enter "exit" when prompted.
 
-5. Test the functionality of the program.
-
-6. To exit the client, enter "exit" when prompted.
-
-7. To exit the server, press the key combination `Ctrl+C`.
+5. To exit the server, press the key combination `Ctrl+C`.
 
 ## Author
 This project was developed by Olexander Bondarchuk.
